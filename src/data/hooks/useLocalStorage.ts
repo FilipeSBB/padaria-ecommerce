@@ -15,5 +15,5 @@ export default function useLocalStorage() {
         localStorage.removeItem(chave)
     }, [])
 
-    return { get, set, remove }
+    return { get, set, remove, and }
 }
